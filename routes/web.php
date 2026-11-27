@@ -3,6 +3,7 @@ use App\Http\Controllers\Admin\DashboardController as AdminDashboardController;
 use App\Http\Controllers\Kasir\DashboardController as KasirDashboardController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Kasir\TransaksiController;
+use App\Http\Controllers\Admin\PaketController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
